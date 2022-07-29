@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* navBar */
+.fa-brands {
+  margin-left: 10px;
+}
+
+.carousel-item img {
+  height: 600px;
+}
+
+/* End navBar */
+
+/* Home */
+.home {
+  margin: 20px;
+}
+
+.h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* End Home */
+
+/* Products */
+
+.positiv {
+  text-align: center;
+  padding: 10px 30px 50px 30px;
+}
+
+.card__productos {
+  border: 0.5px solid grey;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  padding: 10px;
+}
+.card__productos img {
+  width: 150px;
+  height: 150px;
+}
+
+.btn {
+  margin-bottom: 10px;
+  background-color: #73c6b6;
+  border: #73c6b6;
+}
+
+.btn:hover {
+  background-color: #16a085;
+}
+/* End Products */
+
+.alternativaSect_section {
+  min-height: 400px;
+}
+@media screen and (min-width: 576px) {
+  .alternativaSect img {
+    width: 400px;
+    height: 400px;
+  }
+}
