@@ -1,0 +1,13 @@
+.alternativaSect_section {
+  min-height: 400px;
+
+  img {
+    @include sizes(100vw, 200px);
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+  .h4__alternativa {
+    text-align: map-get($estilo, centro);
+  }
+}

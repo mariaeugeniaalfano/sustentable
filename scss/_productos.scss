@@ -1,0 +1,30 @@
+@import "variables";
+
+.textoDescriptivo {
+  text-align: map-get($estilo, centro);
+  padding: 10px 30px 50px 30px;
+}
+
+.card__productos {
+  border: 0.5px solid map-get($estilo, gris);
+  margin-bottom: 20px;
+  border-radius: 3px;
+
+  img {
+    @include sizes(150px, 150px);
+  }
+
+  .card-text {
+    padding: 10px;
+  }
+
+  .btn {
+    margin-bottom: 10px;
+    background-color: map-get($estilo, verdeClaro);
+    border: map-get($estilo, verdeClaro);
+
+    &:hover {
+      background-color: map-get($estilo, verdeOscuro);
+    }
+  }
+}
