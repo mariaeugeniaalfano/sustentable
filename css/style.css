@@ -76,6 +76,27 @@ h6 {
   margin-top: 10px;
 }
 
+.contribuciones .unbox img {
+  border-radius: 100%;
+  width: 500px;
+  height: 500px;
+  margin-top: 10px;
+}
+.contribuciones .form-floating, .contribuciones .contri {
+  margin-top: 10px;
+}
+.contribuciones .contri {
+  margin-bottom: 30px;
+}
+.contribuciones .btn {
+  margin-bottom: 10px;
+  background-color: #73c6b6;
+  border: #73c6b6;
+}
+.contribuciones .btn:hover {
+  background-color: #16a085;
+}
+
 body {
   max-width: 1300px;
   margin: auto;

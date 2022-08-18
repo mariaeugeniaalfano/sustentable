@@ -1,0 +1,27 @@
+.contribuciones {
+  .unbox img {
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+    margin-top: 10px;
+  }
+
+  .form-floating {
+    margin-top: 10px;
+  }
+
+  .contri {
+    @extend .form-floating;
+    margin-bottom: 30px;
+  }
+
+  .btn {
+    margin-bottom: 10px;
+    background-color: map-get($estilo, verdeClaro);
+    border: map-get($estilo, verdeClaro);
+
+    &:hover {
+      background-color: map-get($estilo, verdeOscuro);
+    }
+  }
+}
