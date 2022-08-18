@@ -18,8 +18,13 @@ body {
   margin: auto;
   .h1 {
     text-align: map-get($estilo, centro);
-    margin-bottom: 30px;
+    margin: 20px 0 30px;
   }
+
+  background-image: url(../img/stacked-waves-haikei.png);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
 }
 
 .fa-earth-americas {
@@ -50,7 +55,11 @@ body {
   text-align: map-get($estilo, centro);
   color: map-get($estilo, verdeOscuro);
   .fa-brands {
-    margin-left: 10px;
+    margin: 10px 10px 0 0;
+    font-size: 20px;
+    &:hover{
+      color: map-get($estilo, gris );
+    }
   } //iconos footer
 }
 
@@ -79,7 +88,7 @@ body {
   }
 
   .carousel-item img {
-    height: 550px;
+    height: 450px;
   }
 
   .alternativaSect_section {

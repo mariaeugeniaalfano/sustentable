@@ -25,8 +25,14 @@ a {
   margin: 30px;
   padding-top: 20px;
   border-bottom: map-get($estilo, verdeOscuro) solid 0.5px;
+  h5{
+    color: map-get($estilo, verdeOscuro);
+  }
 }
+
 
 h6 {
   margin-top: 10px;
+  color: map-get($estilo, verdeClaro );
+  text-shadow: 0.03em 0.03em map-get($estilo,verdeOscuro)
 }

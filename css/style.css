@@ -9,6 +9,10 @@
   margin: 20px;
 }
 
+.carousel-item img {
+  object-fit: cover;
+}
+
 .textoDescriptivo {
   text-align: center;
   padding: 10px 30px 50px 30px;
@@ -22,6 +26,7 @@
 .card__productos img {
   width: 150px;
   height: 150px;
+  margin-top: 20px;
 }
 .card__productos .card-text {
   padding: 10px;
@@ -46,6 +51,11 @@
 }
 .alternativaSect_section .h4__alternativa {
   text-align: center;
+  color: #16a085;
+  text-shadow: 0.05em 0.05em #73c6b6;
+}
+.alternativaSect_section p {
+  margin: 10px;
 }
 
 .carousel-inner h5 {
@@ -71,9 +81,14 @@ a {
   padding-top: 20px;
   border-bottom: #16a085 solid 0.5px;
 }
+.campañas__son h5 {
+  color: #16a085;
+}
 
 h6 {
   margin-top: 10px;
+  color: #73c6b6;
+  text-shadow: 0.03em 0.03em #16a085;
 }
 
 .contribuciones .unbox img {
@@ -100,10 +115,14 @@ h6 {
 body {
   max-width: 1300px;
   margin: auto;
+  background-image: url(../img/stacked-waves-haikei.png);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
 }
 body .h1 {
   text-align: center;
-  margin-bottom: 30px;
+  margin: 20px 0 30px;
 }
 
 .fa-earth-americas {
@@ -134,7 +153,11 @@ body .h1 {
   color: #16a085;
 }
 .blockquote-footer .fa-brands {
-  margin-left: 10px;
+  margin: 10px 10px 0 0;
+  font-size: 20px;
+}
+.blockquote-footer .fa-brands:hover {
+  color: grey;
 }
 
 /* MEDIA QUERYS */
@@ -159,7 +182,7 @@ body .h1 {
     min-height: 150px;
   }
   .carousel-item img {
-    height: 550px;
+    height: 450px;
   }
   .alternativaSect_section {
     font-size: 1.3rem;

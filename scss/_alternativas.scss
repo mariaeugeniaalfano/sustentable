@@ -9,5 +9,10 @@
 
   .h4__alternativa {
     text-align: map-get($estilo, centro);
+    color: map-get($estilo, verdeOscuro );
+    text-shadow: 0.05em 0.05em map-get($estilo,verdeClaro)
   }
+ p{
+  margin: 10px;
+ }
 }

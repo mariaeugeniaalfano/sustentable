@@ -12,6 +12,7 @@
 
   img {
     @include sizes(150px, 150px);
+    margin-top: 20px;
   }
 
   .card-text {
