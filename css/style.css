@@ -9,7 +9,10 @@
   margin: 20px;
 }
 
-.carousel-item img {
+#carouselExampleIndicators {
+  margin-top: 10px;
+}
+#carouselExampleIndicators .carousel-item img {
   object-fit: cover;
 }
 
@@ -58,6 +61,10 @@
   margin: 10px;
 }
 
+.carousel {
+  margin-top: 10px;
+}
+
 .carousel-inner h5 {
   color: #16a085;
 }
@@ -80,6 +87,7 @@ a {
   margin: 30px;
   padding-top: 20px;
   border-bottom: #16a085 solid 0.5px;
+  border-top: #16a085 solid 0.5px;
 }
 .campañas__son h5 {
   color: #16a085;
@@ -149,6 +157,8 @@ body .h1 {
 }
 
 .blockquote-footer {
+  border-top: solid 1px;
+  margin-top: 20px;
   text-align: center;
   color: #16a085;
 }
