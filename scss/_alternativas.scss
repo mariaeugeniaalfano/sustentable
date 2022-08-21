@@ -1,18 +1,19 @@
 .alternativaSect_section {
-  min-height: 400px;
-
+  margin: 20px 0 20px;
+  .col {
+    text-align: map-get($estilo, centro);
+  }
   img {
-    @include sizes(100vw, 200px);
+    @include sizes(90vw, 200px);
     object-fit: cover;
-    margin-bottom: 20px;
   }
 
   .h4__alternativa {
-    text-align: map-get($estilo, centro);
-    color: map-get($estilo, verdeOscuro );
-    text-shadow: 0.05em 0.05em map-get($estilo,verdeClaro)
+    margin-top: 10px;
+    color: map-get($estilo, verdeOscuro);
+    text-shadow: 0.05em 0.05em map-get($estilo, verdeClaro);
   }
- p{
-  margin: 10px;
- }
+  p {
+    margin: 10px;
+  }
 }

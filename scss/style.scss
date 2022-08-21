@@ -68,20 +68,16 @@ body {
 
 /* MEDIA QUERYS */
 @media screen and (min-width: 576px) {
-  .alternativaSect img {
-    @include sizes(500px, 300px);
-
-    padding: 0 10px 20px 10px;
-  }
-  .alternativaSect_section {
-    margin: 0 40px 0 40px;
-  }
   .carousel-item img {
     height: 400px;
   }
 
   .card-text {
     min-height: 230px;
+  }
+
+  .alternativaSect_section img {
+    @include sizes(400px, 300px);
   }
 }
 
@@ -93,8 +89,7 @@ body {
   .carousel-item img {
     height: 450px;
   }
-
-  .alternativaSect_section {
-    font-size: 1.3rem;
+  .alternativaSect_section img {
+    @include sizes(500px, 400px);
   }
 }
