@@ -24,6 +24,9 @@ a {
 }
 
 .campañas__son {
+  img {
+    width: 500px;
+  }
   text-align: map-get($estilo, centro);
   margin: 30px;
   padding-top: 20px;

@@ -91,6 +91,9 @@ a {
   border-bottom: #16a085 solid 0.5px;
   border-top: #16a085 solid 0.5px;
 }
+.campañas__son img {
+  width: 500px;
+}
 .campañas__son h4 {
   color: #16a085;
 }
@@ -101,9 +104,6 @@ h6 {
   text-shadow: 0.03em 0.03em #16a085;
 }
 
-.contribuciones {
-  height: 100vh;
-}
 .contribuciones .unbox img {
   border-radius: 100%;
   width: 500px;

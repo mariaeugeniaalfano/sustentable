@@ -1,8 +1,6 @@
 @import "variables";
 
 .contribuciones {
-  height: 100vh;
-
   .unbox img {
     border-radius: 100%;
     @include sizes(500px, 500px);
