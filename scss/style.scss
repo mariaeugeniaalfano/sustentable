@@ -58,23 +58,24 @@ body {
 }
 
 .footer {
+  background-color: map-get($estilo, crema);
   border-top: solid 1px;
   text-align: map-get($estilo, centro);
   color: map-get($estilo, verdeOscuro);
-  
+
   line-height: 5px;
 
   spam {
     color: map-get($estilo, gris);
   }
 
-  .contacto{
+  .contacto {
     text-align: right;
     color: map-get($estilo, negro);
     margin: 10px 10px 20px 0;
   }
   .fa-brands {
-    margin:0 10px 10px 0;
+    margin: 0 10px 10px 0;
     font-size: 20px;
 
     &:hover {
