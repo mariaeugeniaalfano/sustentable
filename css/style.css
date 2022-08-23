@@ -16,6 +16,10 @@
   object-fit: cover;
 }
 
+#productos {
+  min-width: 200px;
+}
+
 .textoDescriptivo {
   text-align: center;
   padding: 10px 30px 50px 30px;
@@ -108,7 +112,6 @@ h6 {
   border-radius: 100%;
   width: 500px;
   height: 500px;
-  margin-top: 10px;
 }
 .contribuciones .form-floating, .contribuciones .contri {
   margin-top: 10px;
@@ -161,17 +164,25 @@ body .h1 {
   height: 250px;
 }
 
-.blockquote-footer {
+.footer {
   border-top: solid 1px;
-  margin-top: 20px;
   text-align: center;
   color: #16a085;
+  line-height: 5px;
 }
-.blockquote-footer .fa-brands {
-  margin: 10px 10px 0 0;
+.footer spam {
+  color: grey;
+}
+.footer .contacto {
+  text-align: right;
+  color: black;
+  margin: 10px 10px 20px 0;
+}
+.footer .fa-brands {
+  margin: 0 10px 10px 0;
   font-size: 20px;
 }
-.blockquote-footer .fa-brands:hover {
+.footer .fa-brands:hover {
   color: grey;
 }
 

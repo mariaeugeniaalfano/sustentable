@@ -63,36 +63,58 @@
 
             <form>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
               </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-              </div>
+          </div>
+          
+          <select class="form-select form-select-sm mb-2" aria-label=".form-select-sm example">
+            <option selected>Tarjeta</option>
+            <option value="1">Santander VISA</option>
+            <option value="2">American Spres</option>
+            <option value="3">BBVA</option>
+            <option value="4">Supervielle</option>
+          </select>
+          <input class="form-control form-control-lg mb-2" type="text" placeholder="Nombre del titular"
+            aria-label=".form-control-lg example">
+          <input class="form-control mb-2" type="number" placeholder="Numero de la tarjeta"
+            aria-label="default input example">
+          <input class="form-control form-control-sm mb-2" type="number" placeholder="Fecha de vencimiento"
+            aria-label=".form-control-sm example">
+          <input class="form-control form-control-sm mb-2" type="number" placeholder="código de seguridad"
+            aria-label=".form-control-sm example">
 
-              <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-                <option selected>importe</option>
-                <option value="1">$100</option>
-                <option value="2">$500</option>
-                <option value="3">$1000</option>
-              </select>
-              <div class="form-floating">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                  style="height: 200px"></textarea>
-                <label for="floatingTextarea2">Detalle a qué causa le gustaría aportar</label>
-              </div>
+          <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+            <option selected>importe</option>
+            <option value="1">$100</option>
+            <option value="2">$500</option>
+            <option value="3">$1000</option>
+          </select>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+              style="height: 200px"></textarea>
+            <label for="floatingTextarea2">Detalle a qué causa le gustaría aportar</label>
+          </div>
 
-              <button type="button" class="btn btn-outline-secondary contri"
-                onclick="alert ('¡Gracias por contribuir con el planeta!');">Contribuir</button>
-            </form>
+          <button type="button" class="btn btn-outline-secondary contri"
+            onclick="alert ('¡Gracias por contribuir con el planeta!');">Contribuir</button>
+          </form>
         </section>
   </main>
   <!-- End Coneiner -->
 
   <!-- Footer -->
 
-  <footer class="blockquote-footer">
+  <footer class="footer">
+    <div class="contacto">
+      <p>Teléfono: 0800-111-111</p>
+      <p>Atencion de lunes a viernes de 8 a 17hs ARG</p>
+    </div>
+    <div class="info">
+      <p>ID<spam>ECO</spam></p>
+      <p>Pensamos en el ambiente.</p>
+    </div>
+
     <div class="icons">
       <i class="fa-brands fa-facebook-square"></i>
       <i class="fa-brands fa-twitter-square"></i>

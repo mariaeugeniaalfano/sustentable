@@ -4,7 +4,6 @@
   .unbox img {
     border-radius: 100%;
     @include sizes(500px, 500px);
-    margin-top: 10px;
   }
 
   .form-floating {
