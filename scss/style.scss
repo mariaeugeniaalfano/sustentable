@@ -33,6 +33,7 @@ body {
   -moz-transition: 3s;
   -webkit-transition: 3s;
   -o-transition: 3s;
+
   &:hover {
     transform: rotate(360deg);
     -ms-transform: rotate(360deg);
@@ -40,13 +41,17 @@ body {
     -webkit-transform: rotate(360deg);
     -o-transform: rotate(360deg);
   }
-} //icono tierra
+}
+
+//icono tierra
 
 .navbar-toggler {
   .navbar-toggler-icon {
     @include sizes(20px, 30px);
   }
-} //menu hamburguesa
+}
+
+//menu hamburguesa
 
 .carousel-item img {
   height: 250px;
@@ -57,13 +62,17 @@ body {
   margin-top: 20px;
   text-align: map-get($estilo, centro);
   color: map-get($estilo, verdeOscuro);
+
   .fa-brands {
     margin: 10px 10px 0 0;
     font-size: 20px;
+
     &:hover {
       color: map-get($estilo, gris);
     }
-  } //iconos footer
+  }
+
+  //iconos footer
 }
 
 /* MEDIA QUERYS */
@@ -89,6 +98,7 @@ body {
   .carousel-item img {
     height: 450px;
   }
+
   .alternativaSect_section img {
     @include sizes(500px, 400px);
   }

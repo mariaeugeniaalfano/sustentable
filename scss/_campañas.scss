@@ -3,6 +3,7 @@
 .carousel {
   margin-top: 10px;
 }
+
 .carousel-inner h5 {
   color: map-get($estilo, verdeOscuro);
 }
@@ -27,11 +28,13 @@ a {
   img {
     width: 500px;
   }
+
   text-align: map-get($estilo, centro);
   margin: 30px;
   padding-top: 20px;
   border-bottom: map-get($estilo, verdeOscuro) solid 0.5px;
   border-top: map-get($estilo, verdeOscuro) solid 0.5px;
+
   h4 {
     color: map-get($estilo, verdeOscuro);
   }

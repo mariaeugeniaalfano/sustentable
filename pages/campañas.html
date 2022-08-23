@@ -1,287 +1,201 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0 maximum-scale=5.0"
-    />
-    <!-- Open Graph -->
-    <meta property="og:title" content="IDECO" />
-    <meta
-      property="og:image"
-      content="https://i.ibb.co/kqsMzm0/ceroplastic.png"
-    />
-    <meta property="og:author" content="Maria Eugenia Alfano" />
-    <meta
-      property="og:description"
-      content="Pagina orientada a la educacion ambiental y el buen manejo de las actividades diaras para reducir el impacto ambiental."
-    />
-    <!-- SEO -->
-    <meta
-      name="description"
-      content="Pagina que muestra campañas realizadas por la empresa ideco"
-    />
-    <meta
-      name="keywords"
-      content="capaña, educacion, educacion ambiental, plantar, futuro, recoger, reducir, reciclar, reparar, 3r, ayudar, ambiente, amigable"
-    />
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../css/style.css" />
-    <!-- Animaciones -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
-    <title>IDECO | Campañas</title>
-  </head>
 
-  <body>
-    <header>
-      <!-- navBar -->
-      <nav class="navbar navbar-expand-md bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html"
-            ><i class="fa-solid fa-earth-americas"></i
-          ></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" href="../index.html">Home</a>
-              <a class="nav-link" href="./productos.html">Productos</a>
-              <a class="nav-link" href="./alternativas.html">Alternativas</a>
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="./campañas.html"
-                >Campañas</a
-              >
-              <a class="nav-link" href="./contribuciones.html"
-                >Contribuciones</a
-              >
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- End navBar -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=5.0" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="IDECO" />
+  <meta property="og:image" content="https://i.ibb.co/kqsMzm0/ceroplastic.png" />
+  <meta property="og:author" content="Maria Eugenia Alfano" />
+  <meta property="og:description"
+    content="Pagina orientada a la educacion ambiental y el buen manejo de las actividades diaras para reducir el impacto ambiental." />
+  <!-- SEO -->
+  <meta name="description" content="Pagina que muestra campañas realizadas por la empresa ideco" />
+  <meta name="keywords"
+    content="capaña, educacion, educacion ambiental, plantar, futuro, recoger, reducir, reciclar, reparar, 3r, ayudar, ambiente, amigable" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <!-- Animaciones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <title>IDECO | Campañas</title>
+</head>
 
-    <!-- Conteiner -->
-    <main>
-      <div
-        id="carouselExampleCaptions"
-        class="carousel slide"
-        data-bs-ride="false"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="../img/hoja.png"
-              class="d-block w-100"
-              alt="mano sujetanto una hoja"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Educación Ambiental</h5>
-              <button type="button" class="btn btn-outline-success">
-                <a href="#educacion">Más Informacion</a>
-              </button>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="../img/cubiertos.png"
-              class="d-block w-100"
-              alt="cubiertos de bambú"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Lo que haces cuenta</h5>
-              <button type="button" class="btn btn-outline-success">
-                <a href="#acciones">Más Informacion</a>
-              </button>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="../img/comida.png"
-              class="d-block w-100"
-              alt="variedad de frutas"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Plantemos futuro</h5>
-              <button type="button" class="btn btn-outline-success">
-                <a href="#plantemos">Más Informacion</a>
-              </button>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+<body>
+  <header>
+    <!-- navBar -->
+    <nav class="navbar navbar-expand-md bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><i class="fa-solid fa-earth-americas"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="../index.html">Home</a>
+            <a class="nav-link" href="./productos.html">Productos</a>
+            <a class="nav-link" href="./alternativas.html">Alternativas</a>
+            <a class="nav-link active" aria-current="page" href="./campañas.html">Campañas</a>
+            <a class="nav-link" href="./contribuciones.html">Contribuciones</a>
+          </div>
+        </div>
       </div>
+    </nav>
+  </header>
+  <!-- End navBar -->
 
-      <section class="campañas">
-        <div class="campañas__son">
-          <h4><a id="educacion">EDUCACION AMBIENTAL</a></h4>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
-            facere modi nihil. Quia veritatis est magnam labore nisi, iusto
-            repudiandae culpa delectus distinctio molestiae ab doloremque
-            cupiditate quos quisquam corporis.lorem Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Vitae praesentium magnam dignissimos
-            officiis accusamus, quisquam ratione sequi recusandae et maiores eum
-            molestiae, ipsam dolore, reprehenderit nam delectus vero quas nulla.
-          </p>
-          <div>
-            <img
-              src="../img/eolica.png"
-              alt="niños sosteniendo carteles que dicen SAVE THE PLANET"
-              class="img-fluid"
-            />
-            <h6>¿Qué logramos hasta ahora?</h6>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nemo
-              eius distinctio sapiente totam, assumenda tenetur explicabo fugiat
-              facilis quod quibusdam, veritatis et voluptatum corrupti autem a
-              animi asperiores numquam! Lorem ipsum dolor, sit amet consectetur
-              adipisicing elit. Mollitia iusto ex doloribus deserunt repellat.
-              Cupiditate esse illo incidunt accusantium nihil beatae. Placeat
-              esse quas sint nesciunt inventore itaque consequuntur quos.
-            </p>
-          </div>
-        </div>
-        <div class="campañas__son">
-          <h4><a id="acciones"> LO QUE HACES CUENTA</a></h5>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
-            facere modi nihil. Quia veritatis est magnam labore nisi, iusto
-            repudiandae culpa delectus distinctio molestiae ab doloremque
-            cupiditate quos quisquam corporis.lorem Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Vitae praesentium magnam dignissimos
-            officiis accusamus, quisquam ratione sequi recusandae et maiores eum
-            molestiae, ipsam dolore, reprehenderit nam delectus vero quas nulla.
-          </p>
-          <div>
-            <img
-              src="../img/do.png"
-              alt="hombre limpiando basura de un  río"
-              class="img-fluid"
-            />
-            <h6>¿Qué logramos hasta ahora?</h6>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nemo
-              eius distinctio sapiente totam, assumenda tenetur explicabo fugiat
-              facilis quod quibusdam, veritatis et voluptatum corrupti autem a
-              animi asperiores numquam! Lorem ipsum dolor, sit amet consectetur
-              adipisicing elit. Mollitia iusto ex doloribus deserunt repellat.
-              Cupiditate esse illo incidunt accusantium nihil beatae. Placeat
-              esse quas sint nesciunt inventore itaque consequuntur quos.
-            </p>
-          </div>
-        </div>
-        <div class="campañas__son">
-          <h4><a id="plantemos">PLANTEMOS FUTURO</a></h4>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
-            facere modi nihil. Quia veritatis est magnam labore nisi, iusto
-            repudiandae culpa delectus distinctio molestiae ab doloremque
-            cupiditate quos quisquam corporis.lorem Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Vitae praesentium magnam dignissimos
-            officiis accusamus, quisquam ratione sequi recusandae et maiores eum
-            molestiae, ipsam dolore, reprehenderit nam delectus vero quas nulla.
-          </p>
-          <div>
-            <img
-              src="../img/plantemos.png"
-              alt="maceta con una planta recien plantada"
-              class="img-fluid"
-            />
-            <h6>¿Qué logramos hasta ahora?</h6>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nemo
-              eius distinctio sapiente totam, assumenda tenetur explicabo fugiat
-              facilis quod quibusdam, veritatis et voluptatum corrupti autem a
-              animi asperiores numquam! Lorem ipsum dolor, sit amet consectetur
-              adipisicing elit. Mollitia iusto ex doloribus deserunt repellat.
-              Cupiditate esse illo incidunt accusantium nihil beatae. Placeat
-              esse quas sint nesciunt inventore itaque consequuntur quos.
-            </p>
-          </div>
-        </div>
-      </section>
-    </main>
-      <!-- End Coneiner -->
-      
-    <!-- Footer -->
-
-    <footer class="blockquote-footer">
-      <div class="icons">
-        <i class="fa-brands fa-facebook-square"></i>
-        <i class="fa-brands fa-twitter-square"></i>
-        <i class="fa-brands fa-instagram"></i>
+  <!-- Conteiner -->
+  <main>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
       </div>
-    </footer>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../img/hoja.png" class="d-block w-100" alt="mano sujetanto una hoja" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Educación Ambiental</h5>
+            <button type="button" class="btn btn-outline-success">
+              <a href="#educacion">Más Informacion</a>
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../img/cubiertos.png" class="d-block w-100" alt="cubiertos de bambú" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Lo que haces cuenta</h5>
+            <button type="button" class="btn btn-outline-success">
+              <a href="#acciones">Más Informacion</a>
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../img/comida.png" class="d-block w-100" alt="variedad de frutas" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Plantemos futuro</h5>
+            <button type="button" class="btn btn-outline-success">
+              <a href="#plantemos">Más Informacion</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-    <!-- End Footer -->
+    <section class="campañas">
+      <div class="campañas__son">
+        <h4><a id="educacion">EDUCACION AMBIENTAL</a></h4>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+          facere modi nihil. Quia veritatis est magnam labore nisi, iusto
+          repudiandae culpa delectus distinctio molestiae ab doloremque
+          cupiditate quos quisquam corporis.lorem Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Vitae praesentium magnam dignissimos
+          officiis accusamus, quisquam ratione sequi recusandae et maiores eum
+          molestiae, ipsam dolore, reprehenderit nam delectus vero quas nulla.
+        </p>
+        <div>
+          <img src="../img/eolica.png" alt="niños sosteniendo carteles que dicen SAVE THE PLANET" class="img-fluid" />
+          <h6>¿Qué logramos hasta ahora?</h6>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nemo
+            eius distinctio sapiente totam, assumenda tenetur explicabo fugiat
+            facilis quod quibusdam, veritatis et voluptatum corrupti autem a
+            animi asperiores numquam! Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Mollitia iusto ex doloribus deserunt repellat.
+            Cupiditate esse illo incidunt accusantium nihil beatae. Placeat
+            esse quas sint nesciunt inventore itaque consequuntur quos.
+          </p>
+        </div>
+      </div>
+      <div class="campañas__son">
+        <h4><a id="acciones"> LO QUE HACES CUENTA</a></h5>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+            facere modi nihil. Quia veritatis est magnam labore nisi, iusto
+            repudiandae culpa delectus distinctio molestiae ab doloremque
+            cupiditate quos quisquam corporis.lorem Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Vitae praesentium magnam dignissimos
+            officiis accusamus, quisquam ratione sequi recusandae et maiores eum
+            molestiae, ipsam dolore, reprehenderit nam delectus vero quas nulla.
+          </p>
+          <div>
+            <img src="../img/do.png" alt="hombre limpiando basura de un  río" class="img-fluid" />
+            <h6>¿Qué logramos hasta ahora?</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nemo
+              eius distinctio sapiente totam, assumenda tenetur explicabo fugiat
+              facilis quod quibusdam, veritatis et voluptatum corrupti autem a
+              animi asperiores numquam! Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Mollitia iusto ex doloribus deserunt repellat.
+              Cupiditate esse illo incidunt accusantium nihil beatae. Placeat
+              esse quas sint nesciunt inventore itaque consequuntur quos.
+            </p>
+          </div>
+      </div>
+      <div class="campañas__son">
+        <h4><a id="plantemos">PLANTEMOS FUTURO</a></h4>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+          facere modi nihil. Quia veritatis est magnam labore nisi, iusto
+          repudiandae culpa delectus distinctio molestiae ab doloremque
+          cupiditate quos quisquam corporis.lorem Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Vitae praesentium magnam dignissimos
+          officiis accusamus, quisquam ratione sequi recusandae et maiores eum
+          molestiae, ipsam dolore, reprehenderit nam delectus vero quas nulla.
+        </p>
+        <div>
+          <img src="../img/plantemos.png" alt="maceta con una planta recien plantada" class="img-fluid" />
+          <h6>¿Qué logramos hasta ahora?</h6>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nemo
+            eius distinctio sapiente totam, assumenda tenetur explicabo fugiat
+            facilis quod quibusdam, veritatis et voluptatum corrupti autem a
+            animi asperiores numquam! Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Mollitia iusto ex doloribus deserunt repellat.
+            Cupiditate esse illo incidunt accusantium nihil beatae. Placeat
+            esse quas sint nesciunt inventore itaque consequuntur quos.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- End Coneiner -->
 
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- Footer -->
+
+  <footer class="blockquote-footer">
+    <div class="icons">
+      <i class="fa-brands fa-facebook-square"></i>
+      <i class="fa-brands fa-twitter-square"></i>
+      <i class="fa-brands fa-instagram"></i>
+    </div>
+  </footer>
+
+  <!-- End Footer -->
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

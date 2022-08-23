@@ -1,8 +1,10 @@
 .alternativaSect_section {
   margin: 20px 0 20px;
+
   .col {
     text-align: map-get($estilo, centro);
   }
+
   img {
     @include sizes(90vw, 200px);
     object-fit: cover;
@@ -13,6 +15,7 @@
     color: map-get($estilo, verdeOscuro);
     text-shadow: 0.05em 0.05em map-get($estilo, verdeClaro);
   }
+
   p {
     margin: 10px;
   }
