@@ -1,1 +1,3 @@
+IDECO, pensamos en el ambiente.
 El alcance de esta pagina es brindar información y alternativas para poder llevar una vida más sustentable. Dar a conocer las problemáticas actuales que nuestras actividades diarias generan y cómo podemos reducirlas. Ya sea cambiando productos domésticos así como hábitos que reducen la huella de carbono. Asimismo, ofrece campañas para quien quiera pueda unirse y colaborar con el ambiente de manera más profunda. Cuenta con productos amigables con el ambiente para poder empezar con dicho cambio de forma accesible.
+La misma fue creada con html, scss, boostrap y animate por María Eugenia Alfano en el año 2022.
