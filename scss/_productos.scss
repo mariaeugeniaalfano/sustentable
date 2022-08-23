@@ -1,5 +1,9 @@
 @import "variables";
 
+#productos{
+  min-width: 200px;
+}
+
 .textoDescriptivo {
   text-align: map-get($estilo, centro);
   padding: 10px 30px 50px 30px;
